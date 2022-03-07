@@ -1,17 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+import { JournalApp } from './JournalApp';
+import './styles/styles.scss'
+//npm i sass
+//npm install react-router-dom@6
+//npm install react-redux redux
+//npm install firebase@8.10.0
+//npm i redux-thunk
+//npm i validator
+//npm install sweetalert2
+//npm i dayjs
+//npm install animate.css --save
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+ 
+    <JournalApp />,
+ 
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
